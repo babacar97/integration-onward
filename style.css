@@ -1,0 +1,170 @@
+.backgroud{
+	background-image: url(images/backgroud.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+
+h1{
+	color: white;
+	font-family: Proxima Nova;
+
+}
+.position{
+	margin-top: -25px;
+	margin-left: 55px;
+}
+
+/* Barre de navigation */
+nav{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  padding: 1.5%;
+  background-color: none;
+  top: 0;
+}
+nav h1{
+  font-size: 20px;
+  padding-top: 1.7%;
+  margin-left: 7.5%;
+}
+nav .onglets{
+  display: flex;
+  flex-wrap:wrap;
+  margin-top: -5%;
+  margin-left: 50%;
+}
+nav .onglets p{
+  font-size: 17px;
+  color: white;
+  margin-right: 36px;
+  cursor:pointer;
+  
+}
+nav .onglets p a{
+	color: white;
+	font-family: Trebuchet MS;
+}
+
+nav p a:hover {
+
+color: #d41e44;
+border-bottom: 2px solid red;
+border-right: 2px solid red ;
+padding: 5%;
+border-bottom-right-radius: 10% ;
+}
+
+
+nav .onglets input{
+  margin: 8px 20px;
+  padding: 15px;
+  border-radius: 30px;
+  border:none;
+  background-color: #f2f2f2;
+  outline:none;
+}
+nav .contour{
+	border: solid 1px white;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+
+  
+}
+div .titre {
+	margin-top: -2%;
+	margin-left: 10.3%;
+}
+#own{
+	font-family: Proxima Nova;
+	font-size: 85px;
+	color: white;
+	letter-spacing: 4.5px;
+}
+#date{
+	font-family: Verdana Regular;
+	font-size: 15px;
+	color: white;
+	opacity: 60%;
+}
+#slogan{
+	font-family: Bahnschrift Regular;
+	font-size: 15px;
+	color: white;
+	opacity: 60%;
+	margin-top: -2.5%;
+	margin-left:7%;
+}
+#texte{
+	font-family: Bahnschrift Light;
+	font-size: 14px;
+	color: white;
+	opacity: 60%;
+}
+#watch{
+	font-family: Trebuchet MS ;
+	font-size: 17px;
+	color: white;
+	margin-top: -40px;
+	margin-left: 50px;
+}
+#add{
+	font-family: Trebuchet MS ;
+	font-size: 17px;
+	color: white;
+	margin-top: -30px;
+	margin-left: 35px;	
+}
+#trailers{
+	font-family: Franklin Gothic Medium;
+	font-size: 15px;
+	color: white;
+	padding-top:  100px;
+}
+#trailer1{
+	margin-top: 0px;
+}
+
+#trailer2{
+	margin-top: -140px;
+	margin-left: 200px;
+
+}
+#fleche{
+	margin-top: -80px;
+	margin-left: -50px;
+}
+div .trait1{
+	margin-top: -7.5%;
+    border-bottom: white solid 0.1px;
+    width: 415px;
+}
+div .trait2{
+	margin-top: -0.5%;
+    border-bottom: white solid 0.1px;
+    width: 415px;
+}
+div .trait3{
+	margin-top: 4.3%;
+    border-bottom: none solid 0.1px;
+    width: 915px;
+}
+div .watch{
+	border: solid  1px white;
+	height: 50px;
+	width: 170px;
+	border-radius: 30px;
+}
+div .favori{
+	margin-top: -40px;
+	margin-left: 200px;	
+}
+
+div .watch a:hover{
+	text-decoration-color:  red;
+}
+div .favori a:hover{
+	text-decoration-color:  red;
+}
